@@ -1,0 +1,365 @@
+"Window[platform=android]": {
+    windowSoftInputMode : Ti.UI.Android.SOFT_INPUT_ADJUST_RESIZE,
+    backgroundColor: "#666"
+},
+"Window[platform=ios]": {
+	backgroundColor: "transparent"
+},
+"Label":{
+    height: 48
+},
+"#mask": {
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	width: "100%",
+	height: "100%"
+},
+"#viewParent[platform=android]":{
+    top: 40,
+    left: 20,
+    right: 20,
+    bottom: 20,
+    backgroundColor: '#FFF'
+},
+"#viewParent[platform=ios]": {
+	backgroundImage: "/home-dashboard/login-bg.png",
+	width: 255,
+	height: 200,
+	top: 20,
+	borderColor: 'gray',
+	borderWidth: 4,
+	borderRadius: 6
+},
+".dividerGrey":{  
+    left: 10,
+    right: 10,
+    height: 1,
+    backgroundColor: "#CCC",
+    align: "center"
+},
+"TextField":{
+    width: Ti.UI.FILL,
+    height: 48
+},
+".whiteSpace":{
+    top: 0,
+    height: 10,
+    width:Ti.UI.FILL,
+},
+"#contentParent[platform=android]":{
+    top: 48,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: "#ffffff",
+},
+"#content":{
+    top : 0,
+    height:Ti.UI.FILL,
+    width: Ti.UI.FILL,
+   	contentHeight:'auto',
+   	showVerticalScrollIndicator: true,
+    scrollType: "vertical"
+},
+"#content[platform=android]": {
+	layout: "vertical",
+	bottom : 68
+},
+"#copyright": {
+	text: L('login_app_copyright')
+},
+"#copyright[platform=ios]":{
+    bottom: 10,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    textAlign: "center",
+    font: {
+        fontSize: '11dp'
+    },
+    color: "#fff"
+},
+"#copyright[platform=android]":{
+    left: 10,
+    right: 10,
+    height: Ti.UI.SIZE,
+    textAlign: "center",
+    font: {
+        fontFamily: 'Roboto-Regular',
+        fontSize: '12dp',
+    },
+    color:"#333"
+},
+"#infoText":{
+    height: Ti.UI.SIZE,
+    text: L('login_app_account_signin')
+},
+"#infoText[platform=ios]":{
+    left: 20,
+    right: 20,
+	textAlign: "left",
+	color: "#fff",
+	top: 40,
+    font: {
+        fontSize: '14dp',
+        fontWeight: "bold"
+    }
+},
+"#infoText[platform=android]":{
+    left: 10,
+    right: 10,
+	textAlign: "center",
+    color: "#333",
+    font: {
+        fontFamily: 'Roboto-Bold',
+        fontSize: '16dp'
+    }
+},
+"#header":{
+    top: 0,
+    width: Ti.UI.FILL,
+    height: 48,
+    backgroundColor: "#333333"
+},
+"#headerTitle[platform=ios]": {
+	text: "Secure Login",
+	color: "#fff",
+	textAlign: "center",
+	top: 10,
+	width: Ti.UI.SIZE,
+	height: 20,
+    font: {
+        fontSize: '16dp',
+        fontWeight: "bold"
+    }
+},
+"#password":{
+    hintText: "Password",
+    passwordMask: true
+},
+"#password[platform=ios]":{
+	backgroundColor: "#fff",
+	width: 225,
+	height: 25,
+    font: {
+        fontSize: '16dp'
+    }
+},
+"#password[platform=android]":{
+	width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundImage: "/general/forms/trans-1x1.png",
+    font: {
+    	fontFamily: 'Roboto-Regular',
+        fontSize: '16dp',
+        fontWeight: 'bold'
+    },
+    color:"#333",
+	backgroundFocusedImage: '/general/forms/field-focused.png',
+    verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM,
+    softKeyboardOnFocus : Ti.UI.Android.SOFT_KEYBOARD_SHOW_ON_FOCUS,
+},
+"#passwordParent[platform=ios]": {
+	top: 90,
+	height: 25
+},
+"#passwordParent[platform=android]":{
+    left: 10,
+    right: 10,
+    height: 48,
+    backgroundImage: "/general/forms/field-unfocused.png"
+},
+"#rememberButton[platform=ios]":{
+    left: 20,
+    width: 30,
+    height: 30,
+    active: false,
+    backgroundImage: '/general/forms/check-disabled.png',
+    backgroundInactive: '/general/forms/check-disabled.png',
+    backgroundActive: '/general/forms/check-enabled.png',
+    touchEnabled: false
+},
+"#rememberButton[platform=android]":{
+    left: 0,
+    width: 48,
+    height: 48,
+    active: false,
+    backgroundImage: '/general/radio-disabled.png',
+    backgroundInactive: '/general/radio-disabled.png',
+    backgroundActive: '/general/radio-enabled.png',
+    touchEnabled: false
+},
+"#rememberParent":{
+    left: 10,
+    right: 10,
+    width: Ti.UI.FILL,
+    height: 48
+},
+"#rememberParent[platform=ios]":{
+    top: 110
+},
+"#rememberText":{
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    textAlign: "left",
+    touchEnabled: false,
+    text: "Remember Me",
+},
+"#rememberText[platform=ios]":{
+	left: 45,
+    color: "#fff",
+    font: {
+        fontSize: '12dp',
+        fontWeight: "bold"
+    }
+},
+"#rememberText[platform=android]": {
+	layout: "horizontal"
+},
+"#signupText": {
+	text: L('login_sign_up_text')
+},
+"#signupText[platform=ios]":{
+    left: 20,
+    right: 20,
+    bottom: 25,
+    height: Ti.UI.SIZE,
+    textAlign: "left",
+    font: {
+        fontSize: '12dp',
+        fontWeight: "bold"
+    },
+    color: "#fff"
+},
+"#signupText[platform=android]":{
+    left: 10,
+    right: 10,
+    height: Ti.UI.SIZE,
+    textAlign: "center",
+    font: {
+        fontFamily: 'Roboto-Regular',
+        fontSize: '16dp'
+    },
+    color:"#333"
+},
+"#username":{
+    hintText: "User Name"
+},
+"#username[platform=ios]":{
+	clearButtonMode: Titanium.UI.INPUT_BUTTONMODE_ONFOCUS,
+	backgroundColor: "#fff",
+	width: 225,
+	height: 25,
+    autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+    autocorrect: false,
+    font: {
+        fontSize: '16dp',
+    }
+},
+"#username[platform=android]":{
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    hintText: L('login_username_hint'),
+    backgroundImage: "/general/forms/trans-1x1.png",
+    backgroundFocusedImage: '/general/forms/field-focused.png',
+    font: {
+        fontFamily: 'Roboto-Regular',
+        fontSize: '16dp',
+    },
+    verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_BOTTOM,
+    softKeyboardOnFocus : Ti.UI.Android.SOFT_KEYBOARD_SHOW_ON_FOCUS,
+},
+"#usernameParent[platform=ios]": {
+	top: 60,
+	height: 25
+},
+"#usernameParent[platform=android]":{
+    left: 10,
+    right: 10,
+    height: 48,
+    backgroundImage: "/general/forms/field-unfocused.png"
+},
+"#bottomNav[platform=android]":{
+    left : 0,
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 68,
+    backgroundColor: '#FFF',
+},
+"#topBorder":{  
+    top: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#CCC',
+    touchEnabled: false
+},
+"#cancelButtonParent[platform=android]":{
+    top: 10,
+    left: 10,
+    width: "45%",
+    height: 48,
+    backgroundColor: '#E6E6E6'
+},
+"#cancelButton[platform=ios]": {
+	width: 80,
+	height: 31,
+	backgroundImage: "/home-dashboard/cancel-btn.png",
+	bottom: 10,
+	left: 25
+},
+"#okButton[platform=ios]": {
+	width: 80,
+	height: 31,
+	backgroundImage: "/home-dashboard/ok-btn.png",
+	bottom: 10,
+	right: 25
+},
+".cancelButtonBar":{
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#CCC',
+    touchEnabled: false
+},
+"#cancelButtonText":{
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    touchEnabled: false,
+    font: {
+        fontFamily: 'Roboto-Regular',
+        fontSize: '20dp'
+    },
+    color: '#333',
+    textAlign: 'center',
+    text: 'Cancel',
+},
+"#okButtonParent[platform=android]":{
+    top: 10,
+    right: 10,
+    width: "45%",
+    height: 48,
+    backgroundColor: '#FFDF0F'
+},
+".okButtonBar":{
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#BFA70B',
+    touchEnabled: false
+},
+"#okButtonText":{
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    font: {
+        fontFamily: 'Roboto-Regular',
+        fontSize: '20dp'
+    },
+    color: '#333',
+    textAlign: 'center',
+    touchEnabled: false,
+    text: 'Ok',
+},
+"#bottomBorder":{
+    bottom: 0,
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: '#333',
+}

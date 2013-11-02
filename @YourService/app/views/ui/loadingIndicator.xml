@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="window">
+		<ActivityIndicator id="loading" />
+		<Label text="Loading.."></Label>
+	</Window>
+</Alloy>

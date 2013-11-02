@@ -1,0 +1,54 @@
+"Window": {
+    backgroundColor: "#FFF",
+    fullscreen: false,
+    orientationModes: [ Ti.UI.PORTRAIT ]
+},
+"Window[platform=android]": {
+	navBarHidden: true,
+    windowSoftInputMode : Ti.UI.Android.SOFT_INPUT_ADJUST_RESIZE,
+    exitOnClose: false
+},
+"Label":{
+	font: {
+		fontFamily: "Roboto-Bold",
+        fontSize: '16dp',
+        fontWeight: "bold"
+	},
+    color: "#333333"
+},
+".dividerLight":{
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: "#CCC",
+    align: "center"
+},
+".dividerDark":{  
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: "#666",
+    align: "center"
+},
+".spacer":{
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    zIndex: 1,
+    backgroundColor: 'transparent'
+},
+".yellowButton" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: '#FEDD00',
+    backgroundSelectedColor: '#E4C600'
+},
+".grayButton" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: '#DFDFDF',
+    backgroundSelectedColor: '#C8C8C8'
+},
+".rowButton" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: 'transparent',
+    backgroundSelectedColor: '#C8C8C8'
+}

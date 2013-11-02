@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+provisioning_profiles/adhoc/29AF239D-5CAB-4146-A3B5-9BA89D8DE07B/appid=*
+provisioning_profiles/adhoc/29AF239D-5CAB-4146-A3B5-9BA89D8DE07B/name=techjam
+provisioning_profiles/adhoc/29AF239D-5CAB-4146-A3B5-9BA89D8DE07B/uuid=29AF239D-5CAB-4146-A3B5-9BA89D8DE07B
+provisioning_profiles/development/5D556EAC-549E-482A-A6EF-0238355330D5/appid=*
+provisioning_profiles/development/5D556EAC-549E-482A-A6EF-0238355330D5/name=iOS Team Provisioning Profile\: iOS Wildcard App ID
+provisioning_profiles/development/5D556EAC-549E-482A-A6EF-0238355330D5/uuid=5D556EAC-549E-482A-A6EF-0238355330D5

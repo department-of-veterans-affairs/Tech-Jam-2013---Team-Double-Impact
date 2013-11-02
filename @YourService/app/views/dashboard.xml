@@ -1,0 +1,37 @@
+<Alloy>
+    <ImageView id="swoosh"/>
+    <ImageView id="logo"/>
+    <View id="dashboardContainer">
+    	<View id="dashboard">
+	        <View id="dashboardOne">
+	            <View class="navigation" id="mymed">
+	                <ImageView class="navImage" id="myMedImage" image="/home-dashboard/mymed-icon.png" />
+	                <Label class="navLabel" text="My Medicines"></Label>
+	                <View class="dividerLight"></View>
+	            </View>
+	            <View class="navigation" id="mylab">
+	                <ImageView class="navImage" id="myLabsImage" image="/home-dashboard/mylab-icon.png" />
+	                <Label class="navLabel" text="My Lab Reports"></Label>
+	                <View class="dividerLight"></View>
+	            </View>
+	            <View class="navigation" id="myvital">
+	                <ImageView class="navImage" id="myVitalsImage" image="/home-dashboard/myvital-icon.png" />
+	                <Label class="navLabel" text="My Vital Signs"></Label>
+	                <View class="dividerLight"></View>
+	            </View>
+	            <View class="navigation" id="myencounter">
+	                <ImageView class="navImage" id="myEncounterImage" image="/home-dashboard/myencounter-icon.png" />
+	                <Label class="navLabel" text="My Encounters"></Label>
+	                <View class="dividerLight"></View>
+	            </View>
+	        </View>
+	        <View id="dashboardTwo">
+	            <View class="navigation" id="myreminder">
+	                <ImageView class="navImage" id="myReminderImage" image="/home-dashboard/myreminder-icon.png" />
+	                <Label class="navLabel" text="My Reminders"></Label>
+	                <View class="dividerLight"></View>
+	            </View>
+	        </View>
+	    </View>
+    </View>
+</Alloy>

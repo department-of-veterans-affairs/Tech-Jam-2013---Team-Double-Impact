@@ -1,0 +1,24 @@
+<Alloy>
+    <Window id="window">
+        <View id="mask" platform="ios" />
+        <View id="viewParent">
+            <Label id="headerTitle" platform="ios" />
+            <View id="contentParent">
+                <ScrollView id="content">
+                    <View id="usernameParent">
+                        <TextField id="username" />
+                    </View>
+                    <View id="passwordParent">
+                        <TextField id="password" />
+                    </View>
+                    <View id="rememberParent">
+                        <Button id="rememberButton" />
+                        <Label id="rememberText" />
+                    </View>
+                </ScrollView>
+                <Button id="cancelButton" platform="ios" />
+                <Button id="okButton" platform="ios" />
+            </View>
+        </View>
+    </Window>
+</Alloy>

@@ -1,0 +1,7 @@
+"#window" : {
+	backgroundColor: 'transparent'
+},
+"#loading" : {
+	visible: true,
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG
+}

@@ -1,0 +1,48 @@
+<Alloy>
+    <Window id="window">
+	    <View id="contentParent" platform="ios"> 
+	    	<View id="header"/> 
+	    	<View id="back"/> 
+	    	<View id="logout"/> 
+	    	<ActivityIndicator id="loading" />
+	        
+	        <TableView id="mylabtable" platform="ios">
+                <TableViewSection>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="Name"></Label>
+                        <Label class="TableViewRowRightLabel" id="name"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="Type"></Label>
+                        <Label class="TableViewRowRightLabel" id="type"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="Start Date"></Label>
+                        <Label class="TableViewRowRightLabel" id="referenceRange"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="Provider"></Label>
+                        <Label class="TableViewRowRightLabel" id="provider"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="Location"></Label>
+                        <Label class="TableViewRowRightLabel" id="location"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="Specimen"></Label>
+                        <Label class="TableViewRowRightLabel" id="specimen"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="Interpretation"></Label>
+                        <Label class="TableViewRowRightLabel" id="interpretation" text="Click For More Details"></Label>
+                    </TableViewRow>
+                </TableViewSection>
+            </TableView>
+	        
+	        
+	        <ImageView id="print" image="/mymed/print.png"/>
+	        <ImageView id="fax" image="/mymed/fax.png"/>
+	        <ImageView id="email" image="/mymed/email.png"/>
+	    </View>
+	</Window>
+</Alloy>

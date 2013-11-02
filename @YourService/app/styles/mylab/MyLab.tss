@@ -1,0 +1,103 @@
+"Window[platform=ios]": {
+    bottom: 50,
+},
+"#history[platform=ios]":{
+    left:"50%",
+    top: 70,
+    width:150,
+    height: 30,
+    backgroundImage: '/mymed/history.png'
+},
+"#loading" : {
+	visible: true,
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.DARK
+},
+"#contentParent[platform=ios]":{
+    top: 0,
+    bottom: 0,
+    width: Ti.UI.FILL,
+    backgroundImage: "/home-dashboard/background.jpg"
+},
+"#current[platform=ios]":{    
+    top: 70,
+    right: '50%',
+    width: 150,
+    height: 30,
+    backgroundImage: '/mymed/current.png'
+},
+"#result":{
+	top: 150,
+	left: 10,
+	right: 10
+},
+"#logout":{
+	backgroundImage: '/mymed/logout.png',
+	top: 25,
+	right: 3,
+	height: 32,
+	width: 40
+},
+"#header":{
+	backgroundImage: '/mylab/header.png',
+	top: 20,
+	left: 0,
+	height: 40
+},
+"#back":{
+	backgroundImage: '/mymed/back.png',
+	top: 20,
+	left: 0,
+	height: 40,
+	width: 50
+},
+"#print":{
+	top: 390,
+	left: 20,
+	height: 35,
+	width: 50
+},
+"#fax":{
+	top: 390,
+	left: 140,
+	height: 35,
+	width: 50
+},
+"#email":{
+	top: 394,
+	left: 260,
+	height: 27,
+	width: 40
+},
+"TableViewRow[platform=ios]" : {
+	selectionStyle: Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+},
+"#mylabtable[platform=ios]":{
+	top:80,
+	bottom:40,
+	width: Ti.UI.FILL,
+	visible:false
+},
+".myLabRow[platform=ios]":{
+	width: Ti.UI.FILL,
+    height: 40,
+    backgroundImage: '/mylab/table-row-bg.png',
+    selectionStyle: Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+},
+".TableViewRowRightLabel[platform=ios]":{
+	right: 28,
+	width: 200,
+    height: Ti.UI.FILL,
+	font: { fontSize: 10, fontFamily:'Helvetica Neue'},
+    color:"#000",
+    textAlign: "right"
+},
+".TableViewRowLeftLabel[platform=ios]":{
+	left:15,
+	width: Ti.UI.SIZE,
+    height: Ti.UI.FILL,
+	font:{ 
+		fontSize: 10, 
+		fontFamily:'Helvetica Neue',
+	},
+    color:"#000",
+}

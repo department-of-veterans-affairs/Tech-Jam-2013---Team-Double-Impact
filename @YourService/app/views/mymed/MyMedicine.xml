@@ -1,0 +1,46 @@
+<Alloy>
+    <Window id="window">
+	    <View id="contentParent" platform="ios"> 
+	    	<View id="header"/> 
+	    	<View id="back"/> 
+	    	<View id="logout"/> 
+	        <ActivityIndicator id="loading" />
+	        <TableView id="mylabtable" platform="ios">
+                <TableViewSection>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="18-Mar-10 Till Now"></Label>
+                        <Label class="TableViewRowRightLabel" text="Multi-vitamin; Dosage:100% RDA, 1 TB, Daily"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="01-Feb-10 to 21-Feb-10"></Label>
+                        <Label class="TableViewRowRightLabel" text="Cough Medicine; Dosage:1000mg, 2 TBS, Morning and Night"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="08-Mar-08 to 06-Jan-09"></Label>
+                        <Label class="TableViewRowRightLabel" text="Ginkgo biloba; Dosage:2 cpl, Daily"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="15-Jun-05 to 15-Jun-06"></Label>
+                        <Label class="TableViewRowRightLabel" text="Aspirin EC; Dosage:81mg, 1 TBS, Daily"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="11-Mar-05 to 20-Apr-05"></Label>
+                        <Label class="TableViewRowRightLabel" text="Ginkgo biloba; Dosage:2 cpl, Daily"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="10-Feb-05 to 12-Feb-05"></Label>
+                        <Label class="TableViewRowRightLabel" text="Cough Medicine; Dosage:1000mg, 2 TBS, Morning and Night"></Label>
+                    </TableViewRow>
+                    <TableViewRow class="myLabRow" >
+                        <Label class="TableViewRowLeftLabel" text="01-Mar-04 to 12-Apr-04"></Label>
+                        <Label class="TableViewRowRightLabel" text="Tammy Flu; Dosage:100mg, 1 TB, Morning"></Label>
+                    </TableViewRow>
+                </TableViewSection>
+            </TableView>
+	        
+	        <ImageView id="print" image="/mymed/print.png"/>
+	        <ImageView id="fax" image="/mymed/fax.png"/>
+	        <ImageView id="email" image="/mymed/email.png"/>
+	    </View>
+	</Window>
+</Alloy>

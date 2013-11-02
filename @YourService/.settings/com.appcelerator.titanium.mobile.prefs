@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=@YourService
+iosLaunchConfigurationAttributes/appid=com.tcs.va
+iosLaunchConfigurationAttributes/certificate=Rajeev Sakhuja (74DVH6M797)
+iosLaunchConfigurationAttributes/distribute_path=/Users/subhajitsinha/Desktop
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/output_format=ipa
+iosLaunchConfigurationAttributes/sdk_version=7.0
+iosLaunchConfigurationAttributes/uuid=5D556EAC-549E-482A-A6EF-0238355330D5
